@@ -10,7 +10,7 @@ import {incrementarValor} from "./funciones.js";
     { year: 2014, count: 22 },
     { year: 2015, count: 30 },
     { year: 2016, count: 28 },
-  ].map (row => ({row, count: incrementarValor(row.count)}));
+  ].map (row => ({...row, count: incrementarValor(row.count)}));
 
   new Chart(
     document.getElementById('acquisitions'),

@@ -609,7 +609,7 @@ var _funcionesJs = require("./funciones.js");
             count: 28
         }
     ].map((row)=>({
-            row,
+            ...row,
             count: (0, _funcionesJs.incrementarValor)(row.count)
         }));
     new (0, _autoDefault.default)(document.getElementById("acquisitions"), {
