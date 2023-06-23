@@ -1,16 +1,33 @@
+ # Descripción
+
+  
+
 proyecto de graficas
 
-intalacion 
+  
 
-este proyecto se instala con el comando 
+instalación
 
-npm inatll
+  
+
+este proyecto se instala con el comando
+
+  
+
+    npm install
+
+  
 
 el proyecto se puede correr en local con
 
-npm run dev 
+  
 
-y contruir la version de produccion
+	npm run dev
 
-npm run build
+  
 
+y construir la version de produccion
+
+  
+
+	 npm run build
